@@ -1,0 +1,64 @@
+body{
+    background: #000;    
+}
+
+.mapa-div{
+    width: 100%;
+    margin: auto;
+}
+
+img{
+    width: 40rem;
+    height: 5rem;
+}
+
+
+.mapa-div path{
+    fill: #F10909;
+    stroke: #4f4f4f;
+    stroke-width: 2px;
+}
+
+.Argentina{
+    fill: #4C89C1 !important;
+}
+
+.Colombia{
+    fill: #C4A110 !important;
+}
+
+
+.Australia{
+    fill: #2EA039 !important;
+}
+
+/* .Australia:hover + path{
+    fill: #2EA039;
+} */
+
+
+.Zealand{
+    fill: #2EA039 !important;
+}
+/* .Zealand:hover + path {
+    fill: #2EA039;
+} */
+
+
+.Mexico{
+    fill: #006341 !important;
+}
+
+.States{
+    fill: #1C1C72 !important;
+}
+/* .States:hover ~ path {
+    fill: #1C1C72;
+} */
+
+.Canada{
+    fill: #B51820 !important;
+}
+/* .Canada:hover ~ path {
+    fill: #B51820;
+} */
