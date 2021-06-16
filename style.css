@@ -8,57 +8,66 @@ body{
 }
 
 img{
-    width: 40rem;
-    height: 5rem;
+    width: 40%;
+    height: 20%;
 }
 
 
 .mapa-div path{
-    fill: #F10909;
+    fill: #E0E0E0;
     stroke: #4f4f4f;
     stroke-width: 2px;
 }
 
-.Argentina{
+.Argentina:hover{
     fill: #4C89C1 !important;
 }
 
-.Colombia{
+.Colombia:hover{
     fill: #C4A110 !important;
 }
 
 
-.Australia{
+a:hover .Australia{
+    fill: #2EA039;
+}
+
+
+a:hover .Zealand {
     fill: #2EA039 !important;
 }
 
-/* .Australia:hover + path{
-    fill: #2EA039;
-} */
 
-
-.Zealand{
-    fill: #2EA039 !important;
-}
-/* .Zealand:hover + path {
-    fill: #2EA039;
-} */
-
-
-.Mexico{
+.Mexico:hover{
     fill: #006341 !important;
 }
 
-.States{
+.States:hover{
     fill: #1C1C72 !important;
 }
-/* .States:hover ~ path {
+.States:hover ~ path {
     fill: #1C1C72;
-} */
+}
 
-.Canada{
+.Canada:hover{
     fill: #B51820 !important;
 }
-/* .Canada:hover ~ path {
+.Canada:hover ~ path {
     fill: #B51820;
-} */
+}
+
+/* ==============================Media Queries============================================ */
+
+@media (max-width: 768px) {
+    img{
+        width: 50%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    img{
+        width: 70%;
+        height: 60%;
+    }
+}
