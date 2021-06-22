@@ -74,13 +74,13 @@ a:hover .Zealand {
         height: 30%;
     }
 
-    /* .container{
+    .container{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         align-content: center;
-    } */
+    }
 }
 
 @media (max-width: 576px) {
@@ -89,13 +89,13 @@ a:hover .Zealand {
         height: 50%;
     }
 
-    /* .container {
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         align-content: center;
-    } */
+    }
 }
 
 @media screen and (max-width: 780px) and (oriantation: landscape) {
