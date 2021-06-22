@@ -1,35 +1,43 @@
-body{
-    background: #000;    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.mapa-div{
+body {
+    background: #000 !important;
+}
+
+.mapa-div {
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-img{
+img {
     width: 40%;
     height: 20%;
 }
 
 
-.mapa-div path{
-    fill: #E0E0E0;
-    stroke: #4f4f4f;
+.mapa-div path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
     stroke-width: 2px;
 }
 
-.Argentina:hover{
+.Argentina:hover {
     fill: #4C89C1 !important;
 }
 
-.Colombia:hover{
+.Colombia:hover {
     fill: #C4A110 !important;
 }
 
 
-a:hover .Australia{
-    fill: #2EA039;
+a:hover .Australia {
+    fill: #2EA039 !important;
 }
 
 
@@ -38,36 +46,60 @@ a:hover .Zealand {
 }
 
 
-.Mexico:hover{
+.Mexico:hover {
     fill: #006341 !important;
 }
 
-.States:hover{
+.States:hover {
     fill: #1C1C72 !important;
 }
-.States:hover ~ path {
-    fill: #1C1C72;
+
+.States:hover~path {
+    fill: #1C1C72 !important;
 }
 
-.Canada:hover{
+.Canada:hover {
     fill: #B51820 !important;
 }
-.Canada:hover ~ path {
-    fill: #B51820;
+
+.Canada:hover~path {
+    fill: #B51820 !important;
 }
 
 /* ==============================Media Queries============================================ */
 
 @media (max-width: 768px) {
-    img{
+    img {
         width: 50%;
         height: 30%;
     }
+
+    /* .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    } */
 }
 
 @media (max-width: 576px) {
-    img{
-        width: 70%;
-        height: 60%;
+    img {
+        width: 60%;
+        height: 50%;
+    }
+
+    /* .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    } */
+}
+
+@media screen and (max-width: 780px) and (oriantation: landscape) {
+    .container {
+        display: none;
     }
 }
