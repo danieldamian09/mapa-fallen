@@ -72,6 +72,144 @@ a:hover .Zealand {
     fill: #B51820 !important;
 }
 
+/* ==============================Argentina============================================ */
+
+.container-ar{
+    width: 50%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-argentina path{
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-argentina{
+    width: 100%;
+}
+
+
+/* ==============================colombia============================================ */
+
+.container-col {
+    width: 70%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-colombia path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-colombia {
+    width: 100%;
+}
+
+/* ==============================Mexico============================================ */
+
+.container-mex {
+    width: 80%;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-mexico path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-mexico {
+    width: 100%;
+}
+
+
+/* ==============================EEUU============================================ */
+
+.container-eeuu {
+    width: 90%;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-estados-unidos path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-estados-unidos {
+    width: 100%;
+}
+
+
+/* ==============================Canada============================================ */
+
+.container-ca {
+    width: 70%;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-canada path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-canada {
+    width: 100%;
+}
+
+
+/* ==============================Australia============================================ */
+
+.container-au {
+    width: 80%;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-australia path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-australia {
+    width: 100%;
+}
+
+
+
+/* ==============================New Zealand============================================ */
+
+
+
+
+
 /* ==============================Media Queries============================================ */
 
 @media (max-width: 768px) {
@@ -79,7 +217,101 @@ a:hover .Zealand {
         width: 60%;
         height: 80%;
         margin: 0 !important;
+        display: none;
     }
+    
+    .mapa-div{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    /* ==============================Argentina============================================ */
+    .container-ar {
+        display: none;
+    }
+
+    .container-argentina path {
+        display: none;
+    }
+
+    .area-argentina {
+        display: none;
+    }
+
+    /* ==============================Colombia============================================ */
+    .container-col {
+        display: none;
+    }
+
+
+    .container-colombia path {
+        display: none;
+    }
+
+    .area-colombia {
+        display: none;
+    }
+
+    /* ==============================Mexico============================================ */
+
+    .container-mex {
+        display: none;
+    }
+
+    .container-mexico path {
+        display: none;
+    }
+
+    .area-mexico {
+        display: none;
+    }
+
+    /* ==============================EEUU============================================ */
+    
+    .container-eeuu {
+        display: none;
+    }
+
+    .container-estados-unidos path {
+        display: none;
+    }
+
+    .area-estados-unidos {
+        display: none;
+    }
+
+    /* ==============================Canada============================================ */
+    .container-ca {
+        display: none;
+    }
+
+    .container-canada path {
+        display: none;
+    }
+
+    .area-canada {
+        display: none;
+    }
+
+    /* ==============================Australia============================================ */
+
+    .container-au {
+        display: none;
+    }
+
+    .container-australia path {
+        display: none;
+    }
+
+    .area-australia {
+        display: none;
+    }
+
+
+
+    /* ==============================New Zealand============================================ */
+
 
 }
 
@@ -88,12 +320,11 @@ a:hover .Zealand {
         width: 60%;
         height: 80%;
         margin: 0 !important;
+        display: none;
+    }
+
+    .mapa-div {
+        display: none;
     }
 
 }
-
-/* @media screen and (max-width: 780px) and (oriantation: landscape) {
-    body {
-        display: none;
-    }
-} */
