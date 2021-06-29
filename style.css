@@ -206,6 +206,24 @@ a:hover .Zealand {
 
 /* ==============================New Zealand============================================ */
 
+.container-nz {
+    width: 60%;
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-zealand path {
+    fill: #E0E0E0 !important;
+    stroke: #4f4f4f !important;
+    stroke-width: 2px;
+}
+
+.area-zealand {
+    width: 100%;
+}
 
 
 
@@ -308,10 +326,19 @@ a:hover .Zealand {
         display: none;
     }
 
-
-
     /* ==============================New Zealand============================================ */
 
+    .container-nz {
+        display: none;
+    }
+
+    .container-zealand path {
+        display: none;
+    }
+
+    .area-zealand {
+        display: none;
+    }
 
 }
 
