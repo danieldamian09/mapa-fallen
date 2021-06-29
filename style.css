@@ -163,7 +163,7 @@ a:hover .Zealand {
 
 .container-ca {
     width: 70%;
-    margin: 30% auto;
+    margin: 40% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,7 +185,7 @@ a:hover .Zealand {
 
 .container-au {
     width: 80%;
-    margin: 30% auto;
+    margin: 20% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +208,7 @@ a:hover .Zealand {
 
 .container-nz {
     width: 60%;
-    margin: 30% auto;
+    margin: 20% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
