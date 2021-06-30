@@ -8,6 +8,10 @@ body {
     background: #000 !important;
 }
 
+h2{
+    color: #ffffff;
+}
+
 .mapa-div {
     width: 100%;
     margin: auto;
@@ -97,11 +101,15 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .argentina-responsive {
+    fill: #4C89C1 !important;
+}
+
 
 /* ==============================colombia============================================ */
 
 .container-col {
-    width: 70%;
+    width: 80%;
     margin: 20% auto;
     display: flex;
     flex-direction: column;
@@ -119,11 +127,15 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .colombia-responsive {
+    fill: #C4A110 !important;
+}
+
 /* ==============================Mexico============================================ */
 
 .container-mex {
     width: 80%;
-    margin: 30% auto;
+    margin: 60% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,12 +152,16 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .mexico-responsive {
+    fill: #006341 !important;
+}
+
 
 /* ==============================EEUU============================================ */
 
 .container-eeuu {
     width: 90%;
-    margin: 30% auto;
+    margin: 40% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,12 +178,17 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .eeuu-responsive {
+    fill: #1C1C72 !important;
+}
+
+
 
 /* ==============================Canada============================================ */
 
 .container-ca {
-    width: 70%;
-    margin: 40% auto;
+    width: 60%;
+    margin: 50% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,12 +205,15 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .canada-responsive {
+    fill: #B51820 !important;
+}
 
 /* ==============================Australia============================================ */
 
 .container-au {
     width: 80%;
-    margin: 20% auto;
+    margin: 30% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,12 +230,16 @@ a:hover .Zealand {
     width: 100%;
 }
 
+a:hover .australia-responsive {
+    fill: #2EA039 !important;
+}
+
 
 
 /* ==============================New Zealand============================================ */
 
 .container-nz {
-    width: 60%;
+    width: 50%;
     margin: 20% auto;
     display: flex;
     flex-direction: column;
@@ -229,7 +257,9 @@ a:hover .Zealand {
     width: 100%;
 }
 
-
+a:hover .zealand-responsive {
+    fill: #2EA039 !important;
+}
 
 
 /* ==============================Media Queries============================================ */
