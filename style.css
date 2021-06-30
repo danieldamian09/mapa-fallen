@@ -21,7 +21,7 @@ h2{
     height: 100vh;
 }
 
-img {
+.logo {
     width: 50%;
     height: 70%;
 }
@@ -80,11 +80,36 @@ a:hover .Zealand {
     fill: #B51820 !important;
 }
 
+
+/* ==============================Logo Responsive============================================ */
+
+.container_mobile {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.mobile-logo {
+    height: 100%;
+    width: 100%;
+}
+
+.mobile {
+    width: 100px;
+    height: 100px;
+    color: #ffffff !important;
+}
+
+
 /* ==============================Argentina============================================ */
 
 .container-ar{
-    width: 50%;
-    margin: 20% auto;
+    width: 48%;
+    margin: 7% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,10 +287,11 @@ a:hover .zealand-responsive {
 }
 
 
+
 /* ==============================Media Queries============================================ */
 
 @media (max-width: 768px) {
-    img {
+    .logo {
         width: 60%;
         height: 80%;
         margin: 0 !important;
@@ -374,10 +400,18 @@ a:hover .zealand-responsive {
         display: none;
     }
 
+/* ==============================Logo Responsive============================================ */
+    .container_mobile{
+        display: none;
+    }
+
 }
 
+
+
+
 @media (max-width: 576px) {
-    img {
+    .logo {
         width: 60%;
         height: 80%;
         margin: 0 !important;
