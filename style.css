@@ -33,6 +33,10 @@ img {
     stroke-width: 2px;
 }
 
+.mundial{
+    padding: 4rem;
+}
+
 .Argentina:hover {
     fill: #4C89C1 !important;
 }
