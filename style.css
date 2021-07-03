@@ -96,20 +96,22 @@ a:hover .Zealand {
 .mobile-logo {
     height: 100%;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .mobile {
     width: 100px;
     height: 100px;
     color: #ffffff !important;
+   
 }
 
 
 /* ==============================Argentina============================================ */
 
 .container-ar{
-    width: 48%;
-    margin: 7% auto;
+    width: 30%;
+    margin: 25% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,8 +120,9 @@ a:hover .Zealand {
 
 .container-argentina path{
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-argentina{
@@ -134,8 +137,8 @@ a:hover .argentina-responsive {
 /* ==============================colombia============================================ */
 
 .container-col {
-    width: 80%;
-    margin: 20% auto;
+    width: 50%;
+    margin: 50% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,8 +147,9 @@ a:hover .argentina-responsive {
 
 .container-colombia path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-colombia {
@@ -159,7 +163,7 @@ a:hover .colombia-responsive {
 /* ==============================Mexico============================================ */
 
 .container-mex {
-    width: 80%;
+    width: 60%;
     margin: 60% auto;
     display: flex;
     flex-direction: column;
@@ -169,8 +173,9 @@ a:hover .colombia-responsive {
 
 .container-mexico path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-mexico {
@@ -185,8 +190,8 @@ a:hover .mexico-responsive {
 /* ==============================EEUU============================================ */
 
 .container-eeuu {
-    width: 90%;
-    margin: 40% auto;
+    width: 60%;
+    margin: 70% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,8 +200,9 @@ a:hover .mexico-responsive {
 
 .container-estados-unidos path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-estados-unidos {
@@ -212,8 +218,8 @@ a:hover .eeuu-responsive {
 /* ==============================Canada============================================ */
 
 .container-ca {
-    width: 60%;
-    margin: 50% auto;
+    width: 40%;
+    margin: 30% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,8 +228,9 @@ a:hover .eeuu-responsive {
 
 .container-canada path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-canada {
@@ -237,8 +244,8 @@ a:hover .canada-responsive {
 /* ==============================Australia============================================ */
 
 .container-au {
-    width: 80%;
-    margin: 30% auto;
+    width: 50%;
+    margin: 40% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,8 +254,9 @@ a:hover .canada-responsive {
 
 .container-australia path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-australia {
@@ -264,8 +272,8 @@ a:hover .australia-responsive {
 /* ==============================New Zealand============================================ */
 
 .container-nz {
-    width: 50%;
-    margin: 20% auto;
+    width: 40%;
+    margin: 25% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,8 +282,9 @@ a:hover .australia-responsive {
 
 .container-zealand path {
     fill: #E0E0E0 !important;
-    stroke: #4f4f4f !important;
-    stroke-width: 2px;
+    stroke: #E0E0E0 !important;
+    stroke-width: 4px !important;
+    stroke-opacity: 1 !important;
 }
 
 .area-zealand {
