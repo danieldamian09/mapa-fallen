@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+
 body {
     background: #000 !important;
+}
+
+h1 {
+    font-family: LeagueGothic-Regular, sans-serif !important;
+    margin-top: 0.3rem;
 }
 
 h2{
@@ -22,8 +28,14 @@ h2{
 }
 
 .logo {
-    width: 30%;
-    height: 80%;
+    width: 2.6rem;
+    height: 2.5rem;
+    margin-right: 0.4rem;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
 }
 
 .area{
