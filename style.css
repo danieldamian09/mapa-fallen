@@ -55,7 +55,7 @@ h2{
 }
 
 .Argentina:hover {
-    fill: #4C89C1 !important;
+    fill: #fff !important;
 }
 
 /* .Colombia:hover {
@@ -78,11 +78,11 @@ h2{
 } */
 
 a:hover .States {
-    fill: #1C1C72 !important;
+    fill: #fff !important;
 }
 
 a:hover .europa{
-    fill: #B51820 !important;
+    fill: #fff !important;
 }
 
 /* .States:hover~path {
