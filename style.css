@@ -58,40 +58,44 @@ h2{
     fill: #4C89C1 !important;
 }
 
-.Colombia:hover {
+/* .Colombia:hover {
     fill: #C4A110 !important;
-}
+} */
 
 
-a:hover .Australia {
+/* a:hover .Australia {
     fill: #2EA039 !important;
-}
+} */
 
 
-a:hover .Zealand {
+/* a:hover .Zealand {
     fill: #2EA039 !important;
-}
+} */
 
 
-.Mexico:hover {
+/* .Mexico:hover {
     fill: #006341 !important;
-}
+} */
 
-.States:hover {
+a:hover .States {
     fill: #1C1C72 !important;
 }
 
-.States:hover~path {
+a:hover .europa{
+    fill: #B51820 !important;
+}
+
+/* .States:hover~path {
     fill: #1C1C72 !important;
-}
+} */
 
-.Canada:hover {
+/* .Canada:hover {
     fill: #B51820 !important;
-}
+} */
 
-.Canada:hover~path {
+/* .Canada:hover~path {
     fill: #B51820 !important;
-}
+} */
 
 
 /* ==============================Logo Responsive============================================ */
