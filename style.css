@@ -120,7 +120,6 @@ a:hover .europa{
     width: 100px;
     height: 100px;
     color: #ffffff !important;
-   
 }
 
 
@@ -136,8 +135,8 @@ a:hover .europa{
 }
 
 .container-argentina path{
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -147,13 +146,14 @@ a:hover .europa{
 }
 
 a:hover .argentina-responsive {
-    fill: #4C89C1 !important;
+    fill: #fff !important;
+    stroke: #fff !important;
 }
 
 
 /* ==============================colombia============================================ */
 
-.container-col {
+/* .container-col {
     width: 50%;
     margin: 50% auto;
     display: flex;
@@ -175,11 +175,11 @@ a:hover .argentina-responsive {
 
 a:hover .colombia-responsive {
     fill: #C4A110 !important;
-}
+} */
 
 /* ==============================Mexico============================================ */
 
-.container-mex {
+/* .container-mex {
     width: 60%;
     margin: 60% auto;
     display: flex;
@@ -201,7 +201,7 @@ a:hover .colombia-responsive {
 
 a:hover .mexico-responsive {
     fill: #006341 !important;
-}
+} */
 
 
 /* ==============================EEUU============================================ */
@@ -216,8 +216,8 @@ a:hover .mexico-responsive {
 }
 
 .container-estados-unidos path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -227,14 +227,42 @@ a:hover .mexico-responsive {
 }
 
 a:hover .eeuu-responsive {
-    fill: #1C1C72 !important;
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+
+/* ==============================Europa============================================ */
+
+.container-eu {
+    width: 60%;
+    margin: 50% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-europa path {
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
+}
+
+.area-europa {
+    width: 100%;
+}
+
+a:hover .europa-responsive {
+    fill: #fff !important;
+    stroke: #fff !important;
 }
 
 
 
 /* ==============================Canada============================================ */
 
-.container-ca {
+/* .container-ca {
     width: 40%;
     margin: 50% auto;
     display: flex;
@@ -256,11 +284,11 @@ a:hover .eeuu-responsive {
 
 a:hover .canada-responsive {
     fill: #B51820 !important;
-}
+} */
 
 /* ==============================Australia============================================ */
 
-.container-au {
+/* .container-au {
     width: 50%;
     margin: 50% auto;
     display: flex;
@@ -282,13 +310,13 @@ a:hover .canada-responsive {
 
 a:hover .australia-responsive {
     fill: #2EA039 !important;
-}
+} */
 
 
 
 /* ==============================New Zealand============================================ */
 
-.container-nz {
+/* .container-nz {
     width: 40%;
     margin: 25% auto;
     display: flex;
@@ -311,7 +339,7 @@ a:hover .australia-responsive {
 a:hover .zealand-responsive {
     fill: #2EA039 !important;
 }
-
+ */
 
 
 /* ==============================Media Queries============================================ */
@@ -382,6 +410,20 @@ a:hover .zealand-responsive {
     }
 
     .area-estados-unidos {
+        display: none;
+    }
+
+     /* ==============================Europa============================================ */
+
+    .container-eu {
+        display: none;
+    }
+
+    .container-europa {
+        display: none;
+    }
+
+    .area-europa {
         display: none;
     }
 
