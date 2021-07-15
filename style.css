@@ -55,49 +55,49 @@ h2{
 }
 
 .Argentina:hover {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 .Colombia:hover {
-    fill: #fff !important;
+    fill: red !important;
 } 
 
 a:hover .Chile {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 a:hover .Australia {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 
 a:hover .Zealand {
-    fill: #fff !important;
+    fill: red !important;
 } 
 
 
 .Mexico:hover {
-    fill: #fff !important;
+    fill: red !important;
 } 
 
 a:hover .States {
-    fill: #fff !important;
+    fill: red !important;
 }
 
-a:hover .europa{
+/* a:hover .world{
     fill: #fff !important;
-}
+} */
 
 .States:hover~path {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 .Canada:hover {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 .Canada:hover~path {
-    fill: #fff !important;
+    fill: red !important;
 }
 
 a:hover .world{
@@ -152,8 +152,8 @@ a:hover .world{
 }
 
 a:hover .argentina-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 
@@ -180,8 +180,8 @@ a:hover .argentina-responsive {
 }
 
 a:hover .colombia-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 /* ==============================Mexico============================================ */
@@ -207,8 +207,8 @@ a:hover .colombia-responsive {
 }
 
 a:hover .mexico-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 
@@ -235,11 +235,11 @@ a:hover .mexico-responsive {
 }
 
 a:hover .eeuu-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
-/* ==============================Europa============================================ */
+/* ==============================world============================================ */
 
 .container-eu {
     width: 60%;
@@ -250,20 +250,20 @@ a:hover .eeuu-responsive {
     align-content: center;
 }
 
-.container-europa path {
+.container-world path {
     fill: #7D7D7D !important;
     stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
 
-.area-europa {
+.area-world {
     width: 100%;
 }
 
-a:hover .europa-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+a:hover .world-responsive {
+    fill: red !important;
+    stroke: red !important;
 }
 
 
@@ -291,8 +291,8 @@ a:hover .europa-responsive {
 }
 
 a:hover .canada-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 /* ==============================Chile============================================ */
@@ -322,8 +322,8 @@ a:hover .canada-responsive {
 }
 
 a:hover .chile-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 /* ==============================Australia============================================ */
@@ -349,8 +349,8 @@ a:hover .chile-responsive {
 }
 
 a:hover .australia-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 
@@ -378,8 +378,8 @@ a:hover .australia-responsive {
 }
 
 a:hover .zealand-responsive {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: red !important;
+    stroke: red !important;
 }
 
 
@@ -455,17 +455,17 @@ a:hover .zealand-responsive {
         display: none;
     }
 
-     /* ==============================Europa============================================ */
+     /* ==============================world============================================ */
 
     .container-eu {
         display: none;
     }
 
-    .container-europa {
+    .container-world {
         display: none;
     }
 
-    .area-europa {
+    .area-world {
         display: none;
     }
 
