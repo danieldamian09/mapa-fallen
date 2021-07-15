@@ -58,24 +58,27 @@ h2{
     fill: #fff !important;
 }
 
-/* .Colombia:hover {
-    fill: #C4A110 !important;
-} */
+.Colombia:hover {
+    fill: #fff !important;
+} 
+
+a:hover .Chile {
+    fill: #fff !important;
+}
+
+a:hover .Australia {
+    fill: #fff !important;
+}
 
 
-/* a:hover .Australia {
-    fill: #2EA039 !important;
-} */
+a:hover .Zealand {
+    fill: #fff !important;
+} 
 
 
-/* a:hover .Zealand {
-    fill: #2EA039 !important;
-} */
-
-
-/* .Mexico:hover {
-    fill: #006341 !important;
-} */
+.Mexico:hover {
+    fill: #fff !important;
+} 
 
 a:hover .States {
     fill: #fff !important;
@@ -85,18 +88,21 @@ a:hover .europa{
     fill: #fff !important;
 }
 
-/* .States:hover~path {
-    fill: #1C1C72 !important;
-} */
+.States:hover~path {
+    fill: #fff !important;
+}
 
-/* .Canada:hover {
-    fill: #B51820 !important;
-} */
+.Canada:hover {
+    fill: #fff !important;
+}
 
-/* .Canada:hover~path {
-    fill: #B51820 !important;
-} */
+.Canada:hover~path {
+    fill: #fff !important;
+}
 
+a:hover .world{
+    fill: red !important;
+}
 
 /* ==============================Logo Responsive============================================ */
 
@@ -153,7 +159,7 @@ a:hover .argentina-responsive {
 
 /* ==============================colombia============================================ */
 
-/* .container-col {
+.container-col {
     width: 50%;
     margin: 50% auto;
     display: flex;
@@ -163,8 +169,8 @@ a:hover .argentina-responsive {
 }
 
 .container-colombia path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -174,12 +180,13 @@ a:hover .argentina-responsive {
 }
 
 a:hover .colombia-responsive {
-    fill: #C4A110 !important;
-} */
+    fill: #fff !important;
+    stroke: #fff !important;
+}
 
 /* ==============================Mexico============================================ */
 
-/* .container-mex {
+.container-mex {
     width: 60%;
     margin: 60% auto;
     display: flex;
@@ -189,8 +196,8 @@ a:hover .colombia-responsive {
 }
 
 .container-mexico path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -200,8 +207,9 @@ a:hover .colombia-responsive {
 }
 
 a:hover .mexico-responsive {
-    fill: #006341 !important;
-} */
+    fill: #fff !important;
+    stroke: #fff !important;
+}
 
 
 /* ==============================EEUU============================================ */
@@ -262,7 +270,7 @@ a:hover .europa-responsive {
 
 /* ==============================Canada============================================ */
 
-/* .container-ca {
+.container-ca {
     width: 40%;
     margin: 50% auto;
     display: flex;
@@ -272,8 +280,8 @@ a:hover .europa-responsive {
 }
 
 .container-canada path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -283,12 +291,44 @@ a:hover .europa-responsive {
 }
 
 a:hover .canada-responsive {
-    fill: #B51820 !important;
-} */
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+
+/* ==============================Chile============================================ */
+
+.container-ch {
+    width: 60%;
+    margin: 50% 50% 50% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-chile path {
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
+    stroke-width: 3px !important;
+    stroke-opacity: 1 !important;
+}
+
+.area-chile {
+    width: 100%;
+}
+
+.chile-titulo{
+    margin-left: 9rem;
+}
+
+a:hover .chile-responsive {
+    fill: #fff !important;
+    stroke: #fff !important;
+}
 
 /* ==============================Australia============================================ */
 
-/* .container-au {
+.container-au {
     width: 50%;
     margin: 50% auto;
     display: flex;
@@ -298,8 +338,8 @@ a:hover .canada-responsive {
 }
 
 .container-australia path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
@@ -309,14 +349,15 @@ a:hover .canada-responsive {
 }
 
 a:hover .australia-responsive {
-    fill: #2EA039 !important;
-} */
+    fill: #fff !important;
+    stroke: #fff !important;
+}
 
 
 
 /* ==============================New Zealand============================================ */
 
-/* .container-nz {
+.container-nz {
     width: 40%;
     margin: 25% auto;
     display: flex;
@@ -326,9 +367,9 @@ a:hover .australia-responsive {
 }
 
 .container-zealand path {
-    fill: #E0E0E0 !important;
-    stroke: #E0E0E0 !important;
-    stroke-width: 4px !important;
+    fill: #7D7D7D !important;
+    stroke: #7D7D7D !important;
+    stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
 
@@ -337,9 +378,10 @@ a:hover .australia-responsive {
 }
 
 a:hover .zealand-responsive {
-    fill: #2EA039 !important;
+    fill: #fff !important;
+    stroke: #fff !important;
 }
- */
+
 
 
 /* ==============================Media Queries============================================ */
@@ -440,6 +482,19 @@ a:hover .zealand-responsive {
         display: none;
     }
 
+    /* ==============================Chile============================================ */
+    .container-ch {
+        display: none;
+    }
+
+    .container-chile path {
+        display: none;
+    }
+
+    .area-chile {
+        display: none;
+    }
+
     /* ==============================Australia============================================ */
 
     .container-au {
@@ -475,7 +530,11 @@ a:hover .zealand-responsive {
 
 }
 
-
+@media (max-width: 280px) {
+    .chile-titulo{
+        margin-left: 7rem;
+    }
+}
 
 
 @media (max-width: 576px) {
