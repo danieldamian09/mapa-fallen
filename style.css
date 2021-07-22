@@ -9,7 +9,7 @@ body {
     background: #000 !important;
 }
 
-h1 {
+h1, h2 {
     font-family: LeagueGothic-Regular, sans-serif !important;
     margin-top: 0.3rem;
 }
