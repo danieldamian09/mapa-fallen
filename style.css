@@ -54,7 +54,7 @@ h2{
     padding: 7% !important;
 }
 
-.Argentina:hover {
+a:hover .Argentina {
     fill: red !important;
 }
 
@@ -92,7 +92,7 @@ a:hover .States {
     fill: red !important;
 }
 
-.Canada:hover {
+a:hover .Canada {
     fill: red !important;
 }
 
