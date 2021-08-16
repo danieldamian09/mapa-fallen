@@ -6,7 +6,7 @@ const chl = document.getElementById('chile');
 const mex = document.getElementById('mexico');
 const eeuu = document.getElementById('unitedStates');
 const world = document.getElementById('world');
-const msg = document.getElementById('elegido');
+let msg = document.getElementById('elegido');
 console.log(msg)
 
 arg.addEventListener("mouseover", (e) =>{
