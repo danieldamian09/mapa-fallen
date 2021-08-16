@@ -7,21 +7,24 @@
 
 body {
     background: #000 !important;
-     font-family: LeagueGothic-Regular, sans-serif !important;
+    font-family: LeagueGothic-Regular, sans-serif !important;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     /* font-family: LeagueGothic-Regular, sans-serif !important; */
     margin-top: 0.3rem;
 }
 
-h2{
+h2 {
     color: #ffffff !important;
 }
 
 .mapa-div {
     width: 100%;
     height: 100vh;
+    /* height: 900px; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -32,19 +35,20 @@ h2{
     height: 60px;
 }
 
-.logo-div{
+.logo-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logo-principal{
+.logo-principal {
     background: #ffffff;
     width: 100%;
+    /* height: 100px; */
     height: 18%;
 }
 
-.area{
+.area {
     width: 100%;
 }
 
@@ -55,7 +59,7 @@ h2{
     stroke-width: 2px;
 }
 
-.mundial{
+.mundial {
     padding: 2% !important;
 }
 
@@ -65,7 +69,7 @@ a:hover .Argentina {
 
 a:hover .Colombia {
     fill: #fff !important;
-} 
+}
 
 a:hover .Chile {
     fill: #fff !important;
@@ -78,12 +82,12 @@ a:hover .Australia {
 
 a:hover .Zealand {
     fill: #fff !important;
-} 
+}
 
 
 a:hover .Mexico {
     fill: #fff !important;
-} 
+}
 
 a:hover .States {
     fill: #fff !important;
@@ -105,11 +109,11 @@ a:hover .Canada {
     fill: #fff !important;
 }
 
-a:hover .world{
+a:hover .world {
     fill: #fff !important;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,15 +122,15 @@ footer{
     min-height: 18%;
 }
 
-footer p{
+footer p {
     margin-top: 15px;
 }
 
-.redes-sociales{
+.redes-sociales {
     margin-top: 20px;
 }
 
-.redes-sociales img{
+.redes-sociales img {
     width: 15px;
     height: 15px;
     margin-left: 5px;
@@ -159,7 +163,7 @@ footer p{
 
 /* ==============================Argentina============================================ */
 
-.container-ar{
+.container-ar {
     width: 30%;
     margin: 25% auto;
     display: flex;
@@ -168,14 +172,14 @@ footer p{
     align-content: center;
 }
 
-.container-argentina path{
+.container-argentina path {
     fill: #7D7D7D !important;
     stroke: #7D7D7D !important;
     stroke-width: 3px !important;
     stroke-opacity: 1 !important;
 }
 
-.area-argentina{
+.area-argentina {
     width: 100%;
 }
 
@@ -345,7 +349,7 @@ a:hover .canada-responsive {
     width: 100%;
 }
 
-.chile-titulo{
+.chile-titulo {
     margin-left: 9rem;
 }
 
@@ -421,13 +425,14 @@ a:hover .zealand-responsive {
         margin: 0 !important;
         display: none;
     }
-    
-    .mapa-div{
+
+    .mapa-div {
         display: none;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
+
     /* ==============================Argentina============================================ */
     .container-ar {
         display: none;
@@ -470,7 +475,7 @@ a:hover .zealand-responsive {
     }
 
     /* ==============================EEUU============================================ */
-    
+
     .container-eeuu {
         display: none;
     }
@@ -483,7 +488,7 @@ a:hover .zealand-responsive {
         display: none;
     }
 
-     /* ==============================world============================================ */
+    /* ==============================world============================================ */
 
     .container-eu {
         display: none;
@@ -551,15 +556,15 @@ a:hover .zealand-responsive {
         display: none;
     }
 
-/* ==============================Logo Responsive============================================ */
-    .container_mobile{
+    /* ==============================Logo Responsive============================================ */
+    .container_mobile {
         display: none;
     }
 
 }
 
 @media (max-width: 280px) {
-    .chile-titulo{
+    .chile-titulo {
         margin-left: 7rem;
     }
 }
