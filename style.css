@@ -125,6 +125,11 @@ footer p {
     margin-top: 15px;
 }
 
+.footer-responsive {
+    padding-bottom: 10px;
+    background-color: #1d1d1d;
+}
+
 .redes-sociales {
     margin-top: 20px;
 }
@@ -557,6 +562,11 @@ a:hover .zealand-responsive {
 
     /* ==============================Logo Responsive============================================ */
     .container_mobile {
+        display: none;
+    }
+
+    /* ==============================Footer-responsive============================================ */
+    .footer-responsive {
         display: none;
     }
 
