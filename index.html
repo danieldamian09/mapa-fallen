@@ -2798,7 +2798,7 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form action="enviar.php" method="POST" class="form" enctype="multipart/form-data" data-netlify="true">
+          <form name="contact" method="POST" class="form" enctype="multipart/form-data" data-netlify="true">
             <input type="text" id="name" name="name" placeholder="Name">
             <input type="text" id="surname" name="surname" placeholder="Surname">
             <input type="email" name="email" id="email" placeholder="Email">
@@ -2807,7 +2807,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="submit" class="btn btn-primary" name="form-name" value="contact">Send</button>
         </div>
       </div>
     </div>
