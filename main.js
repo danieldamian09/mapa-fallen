@@ -6,10 +6,11 @@ const chl = document.getElementById('chile');
 const mex = document.getElementById('mexico');
 const eeuu = document.getElementById('unitedStates');
 const world = document.getElementById('world');
+var myModal = document.getElementById('myModal')
 let msg = document.getElementById('elegido');
 console.log(msg)
 
-arg.addEventListener("mouseover", (e) =>{
+arg.addEventListener("mouseover", (e) => {
     msg.innerHTML = `Argentina`;
 })
 
@@ -41,7 +42,9 @@ world.addEventListener("mouseover", (e) => {
     msg.innerHTML = `Rest of the world`;
 })
 
+// Modal
 
-
-
-
+myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus();
+    console.log("hola")
+})

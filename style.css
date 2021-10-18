@@ -140,6 +140,59 @@ footer p {
     margin-left: 5px;
 }
 
+#btn-modal{
+    display: none;
+}
+
+.lbl-modal{
+    cursor: pointer;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form>input {
+    display: block;
+    width: 383px;
+    margin-top: 28px;
+    height: 50px;
+}
+
+textarea {
+    display: block;
+    width: 383px;
+    margin-top: 28px;
+    height: 100px;
+}
+
+button {
+    width: 391px;
+    height: 50px;
+    border: none;
+    background: red;
+    margin-top: 28px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-footer {
+    justify-content: center !important;
+    border-top: none !important;
+    padding-bottom: 3.5rem !important;
+}
+
 /* ==============================Logo Responsive============================================ */
 
 .container_mobile {
@@ -570,6 +623,8 @@ a:hover .zealand-responsive {
         display: none;
     }
 
+     /* ==============================Form============================================ */
+    
 }
 
 @media (max-width: 280px) {
@@ -590,5 +645,24 @@ a:hover .zealand-responsive {
     .mapa-div {
         display: none;
     }
+
+    form.form {
+        width: 100%;
+    }
+
+    .form>input {
+        width: 100%;
+        margin-top: 2rem;
+        height: 2rem;
+    }
+    
+    textarea {
+        width: 100%;
+        margin-top: 3.5rem;
+        height: 3rem;
+    }
+    
+   
+
 
 }
