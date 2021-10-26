@@ -140,11 +140,11 @@ footer p {
     margin-left: 5px;
 }
 
-#btn-modal{
+#btn-modal {
     display: none;
 }
 
-.lbl-modal{
+.lbl-modal {
     cursor: pointer;
 }
 
@@ -623,8 +623,8 @@ a:hover .zealand-responsive {
         display: none;
     }
 
-     /* ==============================Form============================================ */
-    
+    /* ==============================Form============================================ */
+
 }
 
 @media (max-width: 280px) {
@@ -655,14 +655,11 @@ a:hover .zealand-responsive {
         margin-top: 2rem;
         height: 3rem;
     }
-    
+
     textarea {
         width: 100%;
         margin-top: 2rem;
         height: 3.8rem;
     }
-    
-   
-
 
 }
