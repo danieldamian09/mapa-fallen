@@ -8,7 +8,7 @@ const eeuu = document.getElementById('unitedStates');
 const world = document.getElementById('world');
 var myModal = document.getElementById('myModal')
 let msg = document.getElementById('elegido');
-console.log(msg)
+
 
 arg.addEventListener("mouseover", (e) => {
     msg.innerHTML = `Argentina`;
