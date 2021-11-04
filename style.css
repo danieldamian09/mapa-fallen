@@ -12,7 +12,6 @@ body {
 
 h1,
 h4 {
-    /* font-family: LeagueGothic-Regular, sans-serif !important; */
     margin-top: 0.3rem;
 }
 
@@ -23,7 +22,6 @@ h2 {
 .mapa-div {
     width: 100%;
     height: 100vh;
-    /* height: 900px; */
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -623,7 +621,6 @@ a:hover .zealand-responsive {
         display: none;
     }
 
-    /* ==============================Form============================================ */
 
 }
 
