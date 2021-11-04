@@ -42,9 +42,3 @@ world.addEventListener("mouseover", (e) => {
     msg.innerHTML = `Rest of the world`;
 })
 
-// Modal
-
-myModal.addEventListener('shown.bs.modal', function () {
-    myInput.focus();
-    console.log("hola")
-})
