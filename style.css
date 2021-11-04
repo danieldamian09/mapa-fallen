@@ -8,6 +8,7 @@
 body {
     background: #000 !important;
     font-family: LeagueGothic-Regular, sans-serif !important;
+    font-display: swap;
 }
 
 h1,
