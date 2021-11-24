@@ -1,8 +1,14 @@
-# mapa-fallen
-Mapa interactivo para Fallen
+Proyecto realizado para la marca Fallen Footwear
+
+Tecnologias Utilizadas:
+HTML
+CSS
+JS
+Boostrap
+
+https://user-images.githubusercontent.com/63797901/143311737-499ec10b-b534-4db5-951a-ed913cea8473.png
 
 
-https://user-images.githubusercontent.com/63797901/122272057-82471b80-ceb6-11eb-9cee-198986fd9079.mp4
 
 
 
